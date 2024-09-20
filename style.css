@@ -1,0 +1,74 @@
+.titulo-pagina {
+    text-align: center;
+    font-style: italic;
+    font-size: 3em;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(236, 46, 46);
+    margin: 10px;
+}
+hr {
+    margin: 18px;
+}
+.bloco1 {
+    font: bold;
+    background-color: rgb(110, 100, 252);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+}
+.bloco2 {
+    font: bold;
+    background-color: rgb(69, 56, 239);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+}
+.bloco3 {
+    font: bold;
+    background-color: rgb(16, 0, 244);
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 12px;
+}
+.container-row {
+    display: flex;
+    flex-direction: row;
+
+    background-color: rgb(238, 212, 255);
+    padding: 15px;
+    height: 500px;
+}
+.container-column {
+    display: flex;
+    flex-direction: column;
+
+    background-color: rgb(238, 212, 255);
+    padding: 15px;
+    height: 500px;
+}
+.container-row-reverse {
+    display: flex;
+    flex-direction: row-reverse;
+
+    background-color: rgb(238, 212, 255);
+    padding: 15px;
+    height: 500px;
+}
+.container-column-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+
+    background-color: rgb(238, 212, 255);
+    padding: 15px;
+    height: 500px;
+}
